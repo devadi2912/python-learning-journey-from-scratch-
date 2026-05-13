@@ -1,0 +1,5 @@
+git add .
+git commit -m "your message"
+git push
+
+after eery change or new file creation or deletion track your change on git hub and push it .. 
