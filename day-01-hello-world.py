@@ -7,3 +7,10 @@ for i in range (a+1):
     print (i)
     
 print ("the end !")
+# adding a comment to check if the push commmand is working 
+# adding another loop 
+while True :
+    if (int (input ("enter a number :"))==-222):
+        break
+    else :
+        print ("the number entered is not -222 , try again !")
