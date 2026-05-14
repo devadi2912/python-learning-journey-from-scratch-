@@ -1,0 +1,1 @@
+print ("adi love piaaa !!!")
