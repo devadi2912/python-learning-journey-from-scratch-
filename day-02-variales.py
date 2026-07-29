@@ -75,3 +75,13 @@ print ("the type of value in e is :",type(e1))
 print ("the type of value in f1 is :",type(f1))
 print ("the type of value in f2 is :",type(f2))
 print ("the type of value in f3 is :",type(f3))
+
+# this below is the output value of the above print statements 
+# the type of value in b is : <class 'float'>
+# the type of value in c is : <class 'str'>
+# the type of value in a is : <class 'int'>
+# the type of value in d is : <class 'complex'>
+# the type of value in e is : <class 'bool'>
+# the type of value in f1 is : <class 'list'>
+# the type of value in f2 is : <class 'tuple'>
+# the type of value in f3 is : <class 'dict'>
