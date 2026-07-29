@@ -4,7 +4,7 @@ git push
 
 after every change or new file creation or deletion track your change on git hub and push it .. 
 
-git status                     : to check the what git hub seens and to chekc is the changes are seen by git 
+git status                     : to check the what git hub sees and to check is the changes are seen by git 
 git add .                      : all the changes seen by git are addes to the commit stage 
 git add <file name>            : all the changes in the file name are addes to teh comit stage ... see the git status after this and the to be commit changes will appear 
 git commit -m "your message"   : to commit the changes .. takes a snapshot of all the changes and keep it ready to be pushed this stays on the local machine ans it not yest visible on git hub .. after the changes are pushed th efiles are then visible in git hub .. 
