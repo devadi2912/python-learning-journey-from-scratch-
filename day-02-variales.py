@@ -84,4 +84,4 @@ print ("the type of value in f3 is :",type(f3))
 # the type of value in e is : <class 'bool'>
 # the type of value in f1 is : <class 'list'>
 # the type of value in f2 is : <class 'tuple'>
-# the type of value in f3 is : <class 'dict'>
+# the type of value in f3 is : <class 
