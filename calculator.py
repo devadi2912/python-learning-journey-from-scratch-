@@ -14,7 +14,7 @@ def multi(a,b):
 
 def sub (a,b):
     # function to subtract 
-    return a+b
+    return a-b
 
 def div (a,b):
     return a/b
@@ -30,35 +30,46 @@ def exponent (base , power ):
 
 # now writiting the match case part to call the functions accrdingly
 while (True):
-     
-    a=input (print ("enter the function that u want to perfrom \nto exit press -222"))
-    if (not a.isalpha()):
-        a=a.lower ()
+    a= input("enter the name of the operation that you would like to perform (-222 to exit): ")
     
+    a = a.strip().lower()
     
-    match a:
+    match(a):
         case "add":
-            print ("the sum of both the numbers is :",add(int (input (print ("enter the first number "))),int (input (print ("enter the second number :")))),end ="\n\n")
+            print ()
+            print ("the value of the sum are:",add(int(input("enter the first number :")),int (input ("enter the second number :"))))
+            #python switch case dosent require a break .. writting a break here exits teh main while loop !
         case "sub":
-            print ("the answer is :",sub(int (input (print ("the first number is :")),int (input (print ("the second number is:"))))),end="\n\n")
+            print ()
+            print ("the value of sumtraction is :",sub(int(input("enter the first number :")),int (input ("enter the second number :"))))
+            #python switch case dosent require a break .. writting a break here exits teh main while loop !
         case "multi":
-            print("the answer is :",multi(int (input (print ("the first number :"))),int (input (print ("the second number to multiply:")))),end ="\n\n")
+            print ()
+            print ("the product is :",multi(int(input("enter the first number :")),int (input ("enter the second number :"))))
+            
         case "div":
-            print ("the answer is :",div(int(input (print("enter the numerator :"))),int (input (print ("enter the denominator :")))),end="\n\n")
+            print ()
+            print ("the quotient is :",div(int(input("enter the first number :")),int (input ("divided by :"))))
+            #python switch case dosent require a break .. writting a break here exits teh main while loop !
         case "int_div":
-            print ("the answer is :",int_div(int(input(print("enter the numerator:"))),int(input(print("the denominator:")))),end="\n\n")
+            print ()
+            print ("the integer quotient is :",int_div(int(input("enter the first number :")),int (input ("divided by :"))))
+            #python switch case dosent require a break .. writting a break here exits teh main while loop !
         case "mod":
-            print ("the required answer is:",mod(int (input (print ("enter the value:"))),int (input (print ("mod by:")))),end="\n\n")
+            print ()
+            print ("the modulus value is :",mod(int(input("enter the first number :")),int (input ("divided by :"))))
+            #python switch case dosent require a break .. writting a break here exits teh main while loop !
         case "exponent":
-            print ("the asnwer for the exponent is :",exponent(int(input(print("enter the base:"))),int(input(print("enter the power:")))),end="\n\n")
-        case "-222":
-            print ("the program is now terminating !!",end ="\n\n")
-            exit()
+            print ()
+            print ("the exponent value is :",mod(int(input("enter the base number :")),int (input ("enter the power :"))))
+            #python switch case dosent require a break .. writting a break here exits teh main while loop !
+        case "-222":'e'
+            print ()
+            print ("exiting the program thanks for trying .. have a great day :\n")
+            # exit (0)
+            break
+            #python switch case dosent require a break .. writting a break here exits teh main while loop !
         case _:
-            print ("sorry not an option that exists <type in a name the corresponds to one of the functions >")
-        
-        
-        
-# this is the end of the program enjoyy !!
-
-
+            print ()
+            print ("this is the default case :\nplease try again")
+            print ()

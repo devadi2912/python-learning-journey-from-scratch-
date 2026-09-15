@@ -1,0 +1,5 @@
+the return type of print is None so having a print statemnt inside a input function is not ideal for taking an input becase the print function itself returns a value None .. 
+a= input (print("hello world")) --> Nonehello world 
+a= input ("hello world")        --> hello world 
+
+print (type(print ()))          --> <class 'NoneType'>
