@@ -21,3 +21,7 @@ print (type(test(1))) # type function returns the return type of a fuction      
 print (type(test(2))) # type function returns the return type of a fuction      <class 'list'>
 print (type(test(3))) # type function returns the return type of a fuction      <class 'str'>
 print (type(test(4))) # type function returns the return type of a fuction      <class 'float'>
+
+
+# int("10") + 5 is 15 
+print (int("10") + 5)
