@@ -25,3 +25,17 @@ print (type(test(4))) # type function returns the return type of a fuction      
 
 # int("10") + 5 is 15 
 print (int("10") + 5)
+
+
+def great (a,b):
+    if a>b :
+        return a
+    elif a==b :
+        return "same"
+    else :
+        return b
+c = great(int(input("enter the first number : ")),int(input("enter the second number : ")))
+if (str(c).isdigit()):      # note that isdigit() only works for string objects
+    print ("the greater of the two entered numbers is :",c)
+else :
+    print ("the numbers are the",c)
