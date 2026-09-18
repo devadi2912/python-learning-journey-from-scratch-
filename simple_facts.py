@@ -51,3 +51,22 @@ print the following patter
 '''
 for i in range(1,6):
     print ("*"*i)      # this is sooooo easy and simple you can multiply string also ... in python 
+    
+    
+"""this is the basic of how to use strings in python !!"""
+
+# multi line string 
+multi = '''this is a multi line string
+and we can easily write paragraphs in this line 
+like a poem or a short para 
+and print it as is '''
+
+print (multi)
+
+
+print(end="\n\n")
+
+print ("string indexing :")
+'''
+in strings indexing starts with 0 .. to print the last character we do -1 this is the last charater of the string
+'''
