@@ -4,4 +4,7 @@ n = input ("enter a number or a string to find if it is a plaindrome : ")
 cpy = n[::-1]
 
 
-print (cpy)
+if n == cpy :
+    print ("palindrome!")
+else :
+    print ("not plaindrome !")

@@ -39,3 +39,15 @@ if (str(c).isdigit()):      # note that isdigit() only works for string objects
     print ("the greater of the two entered numbers is :",c)
 else :
     print ("the numbers are the",c)
+    
+    
+'''
+print the following patter 
+*
+**
+***
+****
+*****
+'''
+for i in range(1,6):
+    print ("*"*i)      # this is sooooo easy and simple you can multiply string also ... in python 
