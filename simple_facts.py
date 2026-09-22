@@ -70,3 +70,17 @@ print ("string indexing :")
 '''
 in strings indexing starts with 0 .. to print the last character we do -1 this is the last charater of the string
 '''
+
+"""
+to  convert a character to its equivallent ascii value in python we use string functions chr() and ord() 
+ord ('A') : converts a character to its equivallent ascii value 
+chr (65)  : converts the ascii vale of the character into their actual character encoding 
+"""
+
+print (ord ("F"))                            # 70
+print (chr (ord("F")))                       # F 
+
+# to split a string into words in the form of a list use the split functions it takes a string and converts the string into a list sepereating groups of the words with the help of a given reference value 
+
+str = "this is a string with a number of words and the purpose of this string is to demonstrate the fact that the split function has a use case that makes life so much more   easier ! "
+print (f"the words in the string above in line 85 are : \n{str.split(" ")} \n this is done with the help of the split function !")
