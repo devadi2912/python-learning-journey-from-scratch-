@@ -84,3 +84,9 @@ print (chr (ord("F")))                       # F
 
 str = "this is a string with a number of words and the purpose of this string is to demonstrate the fact that the split function has a use case that makes life so much more   easier ! "
 print (f"the words in the string above in line 85 are : \n{str.split(" ")} \n this is done with the help of the split function !")
+
+
+# to print the last n characters of any given string 
+str = "any given string ???"
+n = 7 # lets say we want the last 7 characters of any given string 
+print (str[-n:])
