@@ -5,3 +5,9 @@ str = str.strip() # this function removes the trailing and leadign spaces from s
 # str = str.lstrip() # altough redudacn eit removes the leading spaces from the string 
 # str = str.rstrip() # removes the spaces but from the right end of the string 
 print(f"the string enterd is \n{str} \nsplit based one whitespace the words are \n:{str.split(" ")}")
+
+
+
+'''
+the split function cannot take multiple identifiers if specifies it recognises that sequence of characters as the seperator to be identified 
+'''

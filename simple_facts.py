@@ -90,3 +90,9 @@ print (f"the words in the string above in line 85 are : \n{str.split(" ")} \n th
 str = "any given string ???"
 n = 7 # lets say we want the last 7 characters of any given string 
 print (str[-n:])
+
+
+str =  "this is a string seperated by whidespaces,and?qustion-marks and,commas"
+words = str.split(" ?,")    # this will not word it will look for the seperator " ?," and not for " ","?",","
+print (words)               # this will print str as is because there is no seperator in the string what is " ?,"
+
