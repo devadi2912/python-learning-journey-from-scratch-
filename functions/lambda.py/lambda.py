@@ -15,6 +15,6 @@ cube = lambda a : a*a*a
 
 print (f"the sum of 2 and 3 is {sum(2,3)}")
 print (f"the product of 2 and 3 is {product(2,3)}")
-print (f"the square of 2 is {square(2,3)}")
-print (f"the cube of 3 is {cube(2,3)}")
+print (f"the square of 2 is {square(2)}")
+print (f"the cube of 3 is {cube(3)}")
 
