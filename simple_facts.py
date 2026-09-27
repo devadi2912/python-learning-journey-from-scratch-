@@ -96,3 +96,8 @@ str =  "this is a string seperated by whidespaces,and?qustion-marks and,commas"
 words = str.split(" ?,")    # this will not word it will look for the seperator " ?," and not for " ","?",","
 print (words)               # this will print str as is because there is no seperator in the string what is " ?,"
 
+
+
+# when using a mix of keyword and positional arguments to call a function always ensure that the positinoal arguments preceds the keyword arguments 
+
+# also when using a default paramter in the parameter list of the function ensure its always succedes the positional values in the parameter list 

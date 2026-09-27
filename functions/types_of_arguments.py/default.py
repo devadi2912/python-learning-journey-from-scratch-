@@ -6,7 +6,10 @@ yellow = "\033[33m"
 
 print (reset)
 
-def welcome (name="default", age=-55555):
+def welcome (name="default", age=-55555):          
+    # the default parameter must always be at the end of the parameter list if positional arguments are present 
+    
+    
     # this is a function to just print a warm welcome message on the terminal screen 
     print (f"this is the terminal screen welcome {yellow}{name}{reset} of age {yellow}{age}{reset} to my git hub repo python journey")
     
