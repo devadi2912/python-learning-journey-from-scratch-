@@ -5,7 +5,7 @@ this is a program to identify if the program has a valid input or not
 name = input ("enter your name: ")
 print (name)
 print (bool(name))
-
+# returns true id not empty fasle is empty 
 if bool(name):
     print ("a valid name is entered!")
 else :

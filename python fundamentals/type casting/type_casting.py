@@ -27,7 +27,12 @@ test = "this is a string type value "
 print ( list (test) ) 
 # ['t', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 's', 't', 'r', 'i', 'n', 'g', ' ', 't', 'y', 'p', 'e', ' ', 'v', 'a', 'l', 'u', 'e', ' ']
 
+print ( tuple(test))
+#('t', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 's', 't', 'r', 'i', 'n', 'g', ' ', 't', 'y', 'p', 'e', ' ', 'v', 'a', 'l', 'u', 'e', ' ')
+
+''' the line beloc set (list (test)) is the same as set ( test)'''
 print (set (list (test)))
+print (set (test))
 # {'a', 'e', 'r', 'n', 'g', 's', 'l', 'h', 'y', 'p', 'v', 'u', ' ', 't', 'i'} tuple has not duplicate characters 
 
 '''

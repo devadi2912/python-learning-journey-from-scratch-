@@ -101,3 +101,15 @@ print (words)               # this will print str as is because there is no sepe
 # when using a mix of keyword and positional arguments to call a function always ensure that the positinoal arguments preceds the keyword arguments 
 
 # also when using a default paramter in the parameter list of the function ensure its always succedes the positional values in the parameter list 
+
+x = 25 
+def test ():
+    x= 30      # this creates another local variable called x that dosent have any realtion to the global x 
+print ( x )
+
+def test1 ():
+    global x   # this is how we can modify global variables in python from within a function  using the global keyword 
+    x= 35 
+print (x)
+
+""" how ever excessive use of global keyword is discouraged as it akes tracting changes in the program dificult """

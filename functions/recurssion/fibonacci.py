@@ -3,16 +3,17 @@
 # the recursive case is the actual sub problem that is repeatedly executed to solve the problem 
 # the base case is the termination condition that stops the recussive call of the function 
 # a recurssive funtiona is implemented to reduce the loc in a funcion with a simple logic implementation 
+# infinite recurssion is when the base case is not executed an the logic is not correct 
 
-
-def fibonacci (n):
+def finbonacci ( n ):
+    # base case 
     if n == 0:
-        return (0)
-    elif n == 1 :
-        return  (1) 
+        return 0
+    elif n ==1 :
+        return 1
     else :
-        return  (fibonacci(n-2) + fibonacci(n-1))
+        return ( finbonacci( n-1 ) + finbonacci ( n-2 ))
 
-a= int(input("enter the number of terms to be printed! : "))
-for i in range (a):
-    print (fibonacci (i))
+num = int ( input (f"enter the number of fibonacci series terms to be printed on the terminal screen :"))
+for i in range ( num ):
+    print (f"{i+1:<4} term :{finbonacci(i)}")

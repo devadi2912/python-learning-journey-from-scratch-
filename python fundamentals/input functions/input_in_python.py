@@ -4,7 +4,7 @@ how ever these values can be converted into the derired data types as per requir
 '''
 
 test = input ("enter a number :")
-print (test , " the type of the eneterd value is : ", type(test))
+print (test , " the type of the entered value is : ", type(test))
 '''
 enter a number :45723
 45723  the type of the eneterd value is :  <class 'str'>

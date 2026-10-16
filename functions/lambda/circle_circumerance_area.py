@@ -1,5 +1,6 @@
 # this program is to find the circumferance of the circle and area using only lambda funcitons
 '''
+indentifier = lambda <parameter list without braces> : < return value > ;
 ares = pi*r*r
 cir  = 2*pi*r    or   pi * (r + r)
 '''
