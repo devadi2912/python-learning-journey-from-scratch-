@@ -113,3 +113,23 @@ def test1 ():
 print (x)
 
 """ how ever excessive use of global keyword is discouraged as it akes tracting changes in the program dificult """
+
+
+""" a tuple is an ordered immutable collection in python that allows duplicate data values and multiple data types """
+# a tuple is created with the help of parenthesis 
+test = (3) # note :
+"""test is not a tuple because a parenthese can be used to group anything in python
+there fore if you wan to have a tuple with a single element you will have to end the tuple with a , 
+to indicate that the datastructure is a tuple and not simply another group of members with a ()""" 
+
+print (type(test))  # <class 'int'>
+test = (3,)
+print (type(test))  # <class 'tuple'>
+
+l = ["apple", "bannana", "cherry"]
+
+len = 0 
+for i in l:
+    len = len+1
+print (f"length of {l} is {len}")   #### orrr 
+print (l.__len__()) # function to find the length of the list 
