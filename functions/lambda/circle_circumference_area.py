@@ -1,4 +1,4 @@
-# this program is to find the circumferance of the circle and area using only lambda funcitons
+# this program is to find the circumference of the circle and area using only lambda functions
 '''
 indentifier = lambda <parameter list without braces> : < return value > ;
 ares = pi*r*r
@@ -9,11 +9,11 @@ sum = lambda a,b : a+b                          # returns the sum of two numbers
 product = lambda a,b : a*b                      # returns the product of two numbers 
 square = lambda a : a*a                         # returns the square of a number 
 
-# circumferance 
-cir = lambda product,sum,pi,r : product (pi() ,sum (r,r))           # returns the circumferance of a circle with radius r 
+# circumference
+cir = lambda product,sum,pi,r : product (pi() ,sum (r,r))           # returns the circumference of a circle with radius r
 
-#area 
-area = lambda pi ,r,square  : product(pi(),square(r))               # returns the circumferance of a circle with radius r 
+# area
+area = lambda pi ,r,square  : product(pi(),square(r))               # returns the circumference of a circle with radius r
 
 radius = int ( input ("enter the value of the radius of the circle : "))
 print (f"the circumferance of the circle is \033[35m{cir (product = product , sum = sum , pi = pi , r= radius )} \033[37mand ares is \033[35m{area (pi=pi , r= radius , square = square )}\033[37m")

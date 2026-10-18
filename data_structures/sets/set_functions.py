@@ -1,4 +1,4 @@
-"""this file covers some common funtions of the data structure set"""
+"""this file covers some common functions of the data structure set"""
 s = {45,"hello",89,63.5}
 
 s.add("new element") # functions to add elements into the set 

@@ -1,7 +1,7 @@
 # a functions is a reusable block of code in python that helps perform a specific task without having ot write the logic repeatedly for that task 
 # it improves the modularity and the robustess of a python program 
 
-# the definition of a fucntion in  python comprise of 
+# the definition of a function in  python comprise of
 '''
 def          -  a key word that indicates that the specific block of code is a functions and not a normal indented block of code
 unique identifier - this namming follows the same namming rules that are used for variable identifiers 

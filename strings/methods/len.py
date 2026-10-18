@@ -1,4 +1,4 @@
-# the len function helpsm find the lenght of the given string it counts the numbber of characters present int eh string 
+# the len function helps find the length of the given string it counts the number of characters present in the string
 
 str = input ("enter s string with as many characters as you like . : ")
 

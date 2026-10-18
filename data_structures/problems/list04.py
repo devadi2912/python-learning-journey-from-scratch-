@@ -1,5 +1,5 @@
 """start with the list names = ["alice", "bob", "charlie"]
-- add "david" at index 1 using the insert funtion"""
+- add "david" at index 1 using the insert function"""
 names = ["alice", "bob", "charlie"]
 print (names)
 names.insert(1,"david")

@@ -16,8 +16,8 @@ print (aditya)
 print (neha)
 print (shreya)
 
-'''one major problem of positional argument is that the position of the funtional parameters must be known at all times to prevent
-acedental wrong initialization of the parameters for example'''
+'''one major problem of positional argument is that the position of the functional parameters must be known at all times to prevent
+accidental wrong initialization of the parameters for example'''
 
 
 rahul = student(34,"rahul",56.56,14200124065)     #------------> wrong positional arguments 

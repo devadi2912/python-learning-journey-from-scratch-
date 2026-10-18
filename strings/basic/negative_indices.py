@@ -1,4 +1,4 @@
-# this program is to find the reverse of an enterd string using the concept of negative indices 
+# this program is to find the reverse of an entered string using the concept of negative indices
 
 str = input ("enter a word : ")
 

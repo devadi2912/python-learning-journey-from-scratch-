@@ -1,4 +1,4 @@
-'''take user input of birth year and calcualte teh approximate age '''
+'''take user input of birth year and calculate the approximate age '''
 
 cur_year= 2026 
 birth_year = int(input ("enter your bith year: "))

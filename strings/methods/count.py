@@ -1,4 +1,4 @@
-# the count fucntion in python helps count the number of occurances of a substrign in a given string 
+# the count function in python helps count the number of occurrences of a substring in a given string
 
 str = input ("enter a string : ")
 
