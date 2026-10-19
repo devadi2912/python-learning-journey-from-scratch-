@@ -2,7 +2,7 @@
 # mentioned in the split function ..
 
 str =  "this is a string seperated by whidespaces,and?qustion-marks and,commas"
-# words = str.split(" ?,")    # this will not word it will look for the separator " ?," and not for " ","?",","
+# words = str.split(" ?,")    # this will not work it will look for the separator " ?," and not for " ","?",","
 
 
 
