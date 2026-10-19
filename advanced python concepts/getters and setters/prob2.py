@@ -32,7 +32,7 @@ class Student :
     
     @marks.setter
     def marks (self, marks):
-        if (marks > 0 and marks <101):
+        if (marks >= 0 and marks <= 100):
             self._marks = marks 
         else :
             print ("invald input")
